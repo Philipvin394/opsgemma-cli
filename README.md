@@ -1,4 +1,4 @@
-![OpsGemma Banner](banner.png)
+![OpsGemma Banner](Banner.png)
 # 🚀 OpsGemma CLI
 
 OpsGemma is a local, privacy-first terminal assistant designed for developers managing Linux systems, Git repositories, and AWS cloud infrastructure. Powered by Google's **Gemma 2 (2B)** running locally via **Ollama**.
