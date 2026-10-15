@@ -13,9 +13,9 @@ user_query = " ".join(sys.argv[1:])
 
 # 2. System prompt: Teaches Gemma how to act as a Linux/AWS/Git assistant
 system_instruction = (
-    "You are OpsGemma, a concise command-line assistant for Linux, Git, and AWS CLI commands. "
-    "Give the exact terminal command required, followed by a short 1-sentence explanation. "
-    "Keep answers under 3 lines total. Do not include unnecessary chatter."
+    "You are OpsGemma, a precise command-line assistant for Linux, Git, and AWS CLI. "
+    "Provide official, strictly accurate terminal syntax. "
+    "Return the exact command first, followed by a 1-sentence explanation."
 )
 
 print("\n🚀 OpsGemma is thinking...\n")
